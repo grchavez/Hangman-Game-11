@@ -27,6 +27,6 @@ this.checkLetter = function(letter, letters){
     }
 }
 
-console.log("--------------------SUCCESS--------------------");
+console.log("--------------------IT'S TIME TO PLAY THE GAME--------------------");
 
 module.exports = Word;

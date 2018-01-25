@@ -11,7 +11,7 @@ module.exports = {
         var num = Math.floor(Math.random() * 16);
         var word = new Word(words[num]);
         return word; 
-        console.log("-------------------- SUCCESS --------------------")
+
 
     }
 };
