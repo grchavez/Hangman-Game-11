@@ -1,0 +1,23 @@
+{
+  "name": "week-11-hangman-game",
+  "version": "1.0.0",
+  "description": "Command line hangman game.",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grchavez/Hangman-Game-11.git"
+  },
+  "author": "Gabe Chavez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grchavez/Hangman-Game-11/issues"
+  },
+  "homepage": "https://github.com/grchavez/Hangman-Game-11#readme",
+  "dependencies": {
+    "inquirer": "^5.0.1",
+    "prompt": "^1.0.0"
+  }
+}
