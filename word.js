@@ -1,6 +1,6 @@
 // Constructor function for word object //
 
-function word(word){
+function Word(word){
     this.word = word;
 
 // Checks if the guessed letter is in the word, if so calls method to reveal character //
@@ -29,4 +29,4 @@ this.checkLetter = function(letter, letters){
 
 console.log("--------------------SUCCESS--------------------");
 
-module.exports = word;
+module.exports = Word;
