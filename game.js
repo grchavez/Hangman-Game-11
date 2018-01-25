@@ -14,9 +14,10 @@ makeGuess();
 
 function makeGuess(){
     displayWord();
-    inquirer.prompt({name: "letter", message: "Please enter a letter."}).then(function(answer){
+    inquirer.prompt({name: "letter", 
+                     message: "Please enter a letter."}).then(function(answer){
         if (word.checkLetter(answer.letter, letters) == true){
-            console.log("Good Job!");
+            console.log("Correct!");
         }
 
         else {
