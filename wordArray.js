@@ -7,8 +7,8 @@ module.exports = {
         var words = ["Vince McMahon", "The Rock", "HHH", "Stone Cold Steve Austin", "Shawn Michaels",
                      "Bret Hart", "Hulk Hogan", "Macho Man Randy Savage", "The Undertaker", "John Cena",
                      "Kevin Nash", "Scott Hall", "The Ultimate Warrior", "Brock Lesnar", "AJ Styles", 
-                     "Kane"];
-        var num = Math.floor(Math.random() * 16);
+                     "Kane", "Shawn Michaels", "Roman Reigns", "Seth Rollins", "Samoa Joe"  ];
+        var num = Math.floor(Math.random() * 20);
         var word = new Word(words[num]);
         return word; 
 
